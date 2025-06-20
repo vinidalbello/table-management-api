@@ -1,0 +1,13 @@
+# Saídas de build .NET
+bin/
+obj/
+
+# Arquivos de configuração específicos de IDEs
+.vs/          # Visual Studio
+*.user        # VS / Rider
+
+# Arquivos de ambiente e secrets
+.env
+.env.local
+.env.*
+!.env.example
